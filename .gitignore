@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+venv/
+.ipynb_checkpoints/
+# DistilBERT weights are ~250 MB (GitHub limit is 100 MB): share via Google Drive / re-create with the notebook
+artifacts_distilbert/distilbert_model/

@@ -1,0 +1,36 @@
+{
+    "model_name": "DistilBERT (fine-tuned)",
+    "checkpoint": "distilbert-base-uncased",
+    "dataset_rows": 5168,
+    "train_size": 4134,
+    "validation_size": 517,
+    "test_size": 517,
+    "seed": 42,
+    "max_length": 128,
+    "epochs": 3,
+    "batch_size": 32,
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "text_column": "message",
+    "hardware": "Tesla T4",
+    "parameters": 66955010,
+    "training_time_seconds": 78.32094860076904,
+    "average_latency_ms": 2.1338670341911836,
+    "single_message_latency_ms": 18.673869780002406,
+    "accuracy": 0.9922630560928434,
+    "macro_f1": 0.9824029952348536,
+    "spam_precision": 0.9692307692307692,
+    "spam_recall": 0.9692307692307692,
+    "spam_f1": 0.9692307692307692,
+    "confusion_matrix": [
+        [
+            450,
+            2
+        ],
+        [
+            2,
+            63
+        ]
+    ]
+}

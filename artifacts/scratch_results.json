@@ -1,0 +1,29 @@
+{
+    "model_name": "Scratch Transformer",
+    "dataset_rows": 5168,
+    "train_size": 4134,
+    "validation_size": 517,
+    "test_size": 517,
+    "seed": 42,
+    "max_length": 100,
+    "epochs": 8,
+    "batch_size": 32,
+    "parameters": 1153922,
+    "training_time_seconds": 11.260283946990967,
+    "average_latency_ms": 0.22995329338270412,
+    "accuracy": 0.9709864603481625,
+    "macro_f1": 0.9376632771994695,
+    "spam_precision": 0.8378378378378378,
+    "spam_recall": 0.9538461538461539,
+    "spam_f1": 0.8920863309352518,
+    "confusion_matrix": [
+        [
+            440,
+            12
+        ],
+        [
+            3,
+            62
+        ]
+    ]
+}
